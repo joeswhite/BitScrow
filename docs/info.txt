@@ -1,0 +1,10 @@
+The Bitcoin Shopping Cart Interface package is a set of libraries and tools that enable you to process bitcoin tansactions with only PHP. You can have your own Instant Payment Notification system without the need for a middleman. If you've been wondering how to handle customer payment since MyBitcoin went down, look no further, because this is the safest solution.
+
+An elliptic curve library written in PHP is used to achieve server side generation of FRESH bitcoin addresses for each customer. The script monitors the status of a payment by making use of the data supplied by blockexplorer.com. As such, there is no need to install a heavy duty service such as bitcoind on your server. The only limitation with this PHP package is that you can't make outgoing payments.
+
+The bitcoin private keys are now encrypted using RSA public-key cryptography technology. This means that the bitcoins keys are encrypted with a public RSA key, but they can only be decrypted with a private RSA key. So even if a hacker gains access to your bitcoin keys, they wont be able to decrypt that data unless they have your private RSA key. You can manage your keys by visiting the sci/admin.php script.
+
+The SCI package comes with a simple example to give you an idea about how to generate new keys and initiate a new payment through the Bitcoin Payment Gateway. This is NOT full shopping cart software, you would typically use this script to offer Bitcoins as one method of payment. The sci/config.php file needs to be modified to work properly on your website. You may also need to customize the following files:
+
+sci/process-order.php
+sci/ipn-control.php

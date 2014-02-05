@@ -1,0 +1,9 @@
+To do:
+Implement memebers area
+implement refund percentages
+instituite place for file uploads of guarentees/contracts
+contaract for all parties to sign
+secure this
+Finish implementation of verification of release of funds.
+
+A nice theme

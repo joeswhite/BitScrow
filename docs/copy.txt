@@ -1,0 +1,9 @@
+Bitscrow is a compliation of many different softwares and licenses. the information i recieved on licensing is as below, please help me get the proper licensing for this so it is opensource.
+
+"
+This package contains a few different open source libraries that are covered by different licenses.
+The shopping cart interface makes use of the other libraries to handle bitcoin transactions.
+The SCI files themselves aren't marked with any copyright info; it doesn't matter what you do with them.
+"
+
+ANY scripting done by J. White is copyright of J. White 2013 and is licensed under the latest version of LGPL
